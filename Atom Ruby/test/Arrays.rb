@@ -1,7 +1,7 @@
 # String array initialized
 # there can be different classes in a single array
 # however, you cannot sort arrays which contain multiple types/classes
-friends = Array["Katelyn", "Eric", "Maddy", "Garrett"]
+friends = Array["Jared", "Joe", "Jack", "John"]
 
 # You can also create an array which isn't initialized
 empty_array = Array.new
@@ -21,8 +21,8 @@ puts friends[0, 2]
 
 # Check if an element is in an array
 puts ""
-puts "Katelyn is in friends? " + (friends.include? "Katelyn").to_s
-puts "Katelyn is in empty? " + (empty_array.include? "Katelyn").to_s
+puts "Jared is in friends? " + (friends.include? "Jared").to_s
+puts "Jared is in empty? " + (empty_array.include? "Jared").to_s
 
 
 # Using a proc to double each number
