@@ -7,9 +7,9 @@ states = {
 
 # Initializing a Hash using symbols (advanced)
 people = {
-  Robby: "19",
-  Selia: "20",
-  Stephanie: "19"
+  John: "19",
+  Jake: "20",
+  Joe: "19"
 }
 
 puts "--- States: (printing the array directly) ---"
